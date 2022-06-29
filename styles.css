@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+header{
+    position: absolute;
+    height: 25px;
+    left: 77px;
+    top: 40px;
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+}
+
+
+.container{
+
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+.content-container{
+    margin-top: 50px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.content-text h1{
+    position: absolute;
+    width: 586px;
+    height: 190px;
+    left: 735px;
+    top: 265px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+
+}
+
+.content-text p{
+    position: absolute;
+    width: 381px;
+    height: 108px;
+    left: 736px;
+    top: 491px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+}
+
+.content-img {
+    position: absolute;
+    left: 5.35%;
+    right: 57.21%;
+    top: 24.54%;
+    bottom: 34.03%;
+
+}
+
+.content-img img{
+    height: 447px;
+    width: 539px;
+    left: 77px;
+    top: 265px;
+    border-radius: 0px;
+}
+
+button{
+
+    position: absolute;
+    width: 216px;
+    height: 68px;
+    left: 740px;
+    top: 663px;
+    background: #333333;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+
+.button{
+    position: absolute;
+    width: 130px;
+    height: 21px;
+    left: 783px;
+    top: 687px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.035em;
+    
+}
+
+@media only screen and (max-width: 480px) {
+
+    
+       
+        .content-container{
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .content-img img{
+            height: 238.00001525878906px;
+            width: 286.829833984375px;
+            left: 44px;
+            top: 109px;
+            border-radius: 0px;
+        }
+
+        .content-img{
+            position: absolute;
+            left: 11.73%;
+            right: 11.78%;
+            top: 11.49%;
+            bottom: 63.44%;
+
+        }
+
+        .content-text h1{
+            height: 142px;
+            width: 350px;
+            left: 24px;
+            top: 407px;
+            position: absolute;
+            font-family: 'Inconsolata';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 25px;
+            letter-spacing: -0.08em;
+            text-transform: uppercase;
+        }
+
+        .content-text p{
+            position: absolute;
+            width: 328px;
+            height: 81px;
+            left: 23px;
+            top: 579px;;
+            font-family: 'Space Mono';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            letter-spacing: -0.035em;            
+                       
+        }
+
+        button{
+            position: absolute;
+            width: 130px;
+            height: 21px;
+            left: 67px;
+            top: 750px;            
+            font-family: 'Space Mono';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 21px;                     
+            letter-spacing: -0.035em;
+            text-transform: uppercase;            
+            color: #FFFFFF;
+            
+        }
+       .button{
+        position: absolute;
+        width: 216px;
+        height: 68px;
+        left: 24px;
+        top: 726px;                
+        background: #333333;        
+       }
+        
+       header{
+        position: absolute;
+        width: 60%;
+        height: 25px;
+        left: 24px;
+        top: 20px;        
+        font-family: 'Inconsolata';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 20px;
+        letter-spacing: -0.08em;              
+        color: #333333;        
+       }
+}
